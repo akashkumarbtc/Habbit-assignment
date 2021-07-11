@@ -2,4 +2,4 @@
 
 Login
 
-![alt text](https://github.com/developedBy-J/Habbit-assignment/blob/snaps/login.PNG?raw=true)
+![alt text](https://github.com/developedBy-J/Habbit-assignment/snaps/login.PNG?raw=true)

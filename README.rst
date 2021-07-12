@@ -75,6 +75,40 @@ Response =
 
 
 -------------------------------------------------------------------------------
+
+Add new Course
+
+Login to admin user:
+
+ Method = POST
+ URL = https://infinite-fjord-85317.herokuapp.com/account/login/
+ Body = {
+    "username":"admin",
+    "password":"admin123"
+}
+
+Response = {
+    "token": "71aaae52012ed59b70ffa5343be4308d8c0591d0"
+}
+
+Addition of new course:
+
+Method = POST
+URL = https://infinite-fjord-85317.herokuapp.com/syllabus/course/
+Body = {
+     "course_name": "React",
+    "author_name": "Ed",
+    "price": "500.0"
+}
+
+Response = {
+    "id": 5,
+    "course_name": "React",
+    "author_name": "Ed",
+    "created_date": "2021-07-12T08:44:27.580284Z",
+    "price": 500.0
+}
+--------------------------------------------------------------------------------
  Get Single Course :
  
  Method = GET
